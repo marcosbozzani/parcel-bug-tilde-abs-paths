@@ -1,0 +1,13 @@
+{
+  "name": "parcel-bug-tilde-abs-paths",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^1.8.1"
+  },
+  "scripts": {
+    "slash": "parcel build src/slash.html --no-cache",
+    "tilde": "parcel build src/tilde.html --no-cache"
+  }
+}
