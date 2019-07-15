@@ -9,5 +9,8 @@
   "scripts": {
     "slash": "parcel build src/slash.html --no-cache",
     "tilde": "parcel build src/tilde.html --no-cache"
+  },
+  "resolutions": {
+    "lodash": "^4.17.13"
   }
 }
